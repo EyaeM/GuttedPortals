@@ -17,7 +17,7 @@ public class IPCGlobal {
     
     public static int maxIdleChunkRendererNum = 500;
     
-    public static boolean doUseAdvancedFrustumCulling = false;
+    public static boolean doUseAdvancedFrustumCulling = true;
     public static boolean useHackedChunkRenderDispatcher = true;
     public static boolean isClientRemoteTickingEnabled = true;
     public static boolean useFrontClipping = true;

@@ -72,7 +72,7 @@ public class IPGlobal {
     
     public static boolean crossPortalCollision = true;
     
-    public static boolean netherPortalOverlay = false;
+    public static boolean netherPortalOverlay = true;
     
     public static boolean debugDisableFog = false;
     

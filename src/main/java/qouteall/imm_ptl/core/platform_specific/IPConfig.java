@@ -41,7 +41,7 @@ public class IPConfig implements ConfigData {
     @ConfigEntry.Category("client")
     public boolean reducedPortalRendering = false;
     @ConfigEntry.Category("client")
-    public boolean netherPortalOverlay = false;
+    public boolean netherPortalOverlay = true;
     @ConfigEntry.Category("client")
     public boolean enableNetherPortalEffect = true;
     @ConfigEntry.Category("client")
