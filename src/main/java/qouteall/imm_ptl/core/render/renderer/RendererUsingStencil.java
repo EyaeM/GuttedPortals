@@ -62,13 +62,7 @@ public class RendererUsingStencil extends PortalRenderer {
         }
     }
     
-    protected void renderPortals(Matrix4f modelView) {
-        List<Portal> portalsToRender = getPortalsToRender(modelView);
-        
-        for (Portal portal : portalsToRender) {
-            doRenderPortal(portal, modelView);
-        }
-    }
+    protected void renderPortals(Matrix4f modelView) {}
     
     @Override
     public void onAfterTranslucentRendering(Matrix4f modelView) {
